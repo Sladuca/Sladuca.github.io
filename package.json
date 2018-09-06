@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jquery-scrollify": "^1.0.19",
+    "slick-carousel": "^1.8.1"
+  }
 }
