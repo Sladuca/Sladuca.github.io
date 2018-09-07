@@ -16,3 +16,27 @@
     	accordion: false
     });
   });
+
+  function copyPhone() {
+    const el = document.createElement('textarea');
+    el.value = '5704706239';
+    el.setAttribute('readonly', '');
+    el.style.position = 'absolute';
+    el.style.left = '-9999px';
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+  };
+
+  function copyEmail() {
+    const el = document.createElement('textarea');
+    el.value = 'sladuca777@gmail.com';
+    el.setAttribute('readonly', '');
+    el.style.position = 'absolute';
+    el.style.left = '-9999px';
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+  };

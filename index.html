@@ -15,10 +15,10 @@
     			<i class="large material-icons">person_add</i>
   			</a>
   			<ul>
-  				<li><a class="btn-floating blue-grey darken-4 tooltipped grey-text text-lighten-4 waves-effect waves-light" data-position="left" data-tooltip="Copy: (570)-470-6239" ><i class="material-icons">phone</i></a></li>
-  				<li><a class="btn-floating blue-grey darken-3 tooltipped grey-text text-lighten-4 waves-effect waves-light" data-position="left" data-tooltip="Copy: sladuca777@gmail.com"><i class="material-icons">email</i></a></li>
+  				<li><a class="btn-floating blue-grey darken-4 tooltipped grey-text text-lighten-4 waves-effect waves-light" data-position="left" data-tooltip="Copy: (570)-470-6239" onclick="copyPhone()"><i class="material-icons">phone</i></a></li>
+  				<li><a class="btn-floating blue-grey darken-3 tooltipped grey-text text-lighten-4 waves-effect waves-light" data-position="left" data-tooltip="Copy: sladuca777@gmail.com" onclick="copyEmail()"><i class="material-icons">email</i></a></li>
 			    <li><a class="btn-floating blue-grey darken-2 grey-text text-lighten-4 waves-effect waves-light" href="https://github.com/Sladuca"><i class="bd-github"></i></a></li>
-			    <li><a class="btn-floating blue-grey darken-1 grey-text text-lighten-4 waves-effect waves-light" href="https://www.linkedin.com/in/sebastienladuca/"><i class="bd-linkedin"></i></a></li>			    
+			    <li><a class="btn-floating blue-grey darken-1 grey-text text-lighten-4 waves-effect waves-light" href="https://www.linkedin.com/in/sebastienladuca/"><i class="bd-linkedin"></i></a></li>    
   			</ul>
 		</div>
     <div class="container">
@@ -32,13 +32,13 @@
         	</div>
         	<div class="row">
         		<div class="col s12 center">
-        			<svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 210 297" height="300" width="211">
-        			  <g fill="none" stroke="#ffc107" stroke-width="4">
-        			    <path class="path" d="M206 2L5 100l200 96L2 295M204 22v155"/>
-        			    <path class="path d-svg" d="M15 126v145l107-76z"/>
-        			  </g>
-        			</svg>
-
+				    <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 190.42822 368.14249" height="400" width="202">
+				      <g fill="none" stroke="#ffc107" stroke-width="4">
+				        <path class="path" d="M99.98529-1.667488L-30.51022 128.828019l129.37635 74.695467-138.72111 138.72111" stroke="none"/>
+				        <path class="path" d="M166.15201 9.360312L33.81855 141.693773l131.63596 76.000063-136.99305 136.99308M163.64655 29.798362v169.472734" stroke-width="2.64483639"/>
+				        <path class="path" d="M41.62759 173.457866v140.00581l68.89174-68.89174z" stroke-width="2.64483639"/>
+				      </g>
+				    </svg>
         		</div>
         	</div>
         	<div class="row">
@@ -66,7 +66,7 @@
         				<div class="row">
         					<div class="col s12">
         						<blockquote class="grey-text text-lighten-4">
-        							As a true generalist, I seek to uncover novel solutions using my vast collection of knowledge and capabilities. By tying together seemingly unrelated fields, I can weave specialized threads of emerging technology into more unique, accesible, and effective innovation.
+        							As a true generalist, I seek to uncover novel solutions using my collection of knowledge and capabilities. By tying together seemingly unrelated fields, I can weave specialized threads of emerging technology into more unique, accesible, and effective innovation.
         						</blockquote>
         						<blockquote class="grey-text text-lighten-4">
         							With a ubiquity of interests across the stack, from computer architecture to front-end development, I am ready and willing to learn new skills quickly on-the-fly. This makes me incredibly adaptable and excellent at integration.
@@ -89,61 +89,76 @@
         	<div class="row center">
         		<h1>Projects</h1>
         	</div>
-        	</div>
         	<div class="row">
         		<div class="col s12 center">
-        			<svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 210 297" height="200" width="140">
-        			  <g fill="none" stroke="#ffc107" stroke-width="4">
-        			    <path class="path" d="M206 2L5 100l200 96L2 295M204 22v155"/>
-        			    <path class="path d-svg" d="M15 126v145l107-76z"/>
-        			  </g>
-        			</svg>
-
+        			<svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 190.42822 368.14249" height="200" width="102">
+				      <g fill="none" stroke="#ffc107" stroke-width="4">
+				        <path class="path-d" d="M99.98529-1.667488L-30.51022 128.828019l129.37635 74.695467-138.72111 138.72111" stroke="none"/>
+				        <path class="path" d="M166.15201 9.360312L33.81855 141.693773l131.63596 76.000063-136.99305 136.99308M163.64655 29.798362v169.472734" stroke-width="2.64483639"/>
+				        <path class="path" d="M41.62759 173.457866v140.00581l68.89174-68.89174z" stroke-width="2.64483639"/>
+				      </g>
+				    </svg>
         		</div>
         	</div>
         	<div class="row">
         		<div class="col s12">
         			<ul class="collapsible popout">
         				<li>
-        					<div class="collapsible-header blue-grey darken-1"><h6>Website for Carnegie Mellon Quiz Bowl</h6></div>
+        					<div class="collapsible-header blue-grey darken-1 grey-text text-lighten-4"><h6><i class="material-icons amber-text">code</i>Website for Carnegie Mellon Quiz Bowl</h6></div>
         					<div class="collapsible-body blue-grey darken-2">
         						<blockquote class="grey-text text-lighten-4">
         							During the summer prior to the 2018-2019 school year, I built a new website for Carnegie Mellon Quiz Bowl, an organization that plays and hosts academic knowledge competitions. I used the materialize React framework to streamline the development process, which only took about 28 hours total. Before this, I never used HTML, CSS, JS, or React before; By developing the website and heavily modifying the react framework, I learned all of these skills on-the fly, while producing a presentable product in  a relatively short amount of time.
         						</blockquote>
+        						<blockquote class="grey-text text-lighten-4">
+        							Be sure to check it out by clicking the button below!
+        						</blockquote>
+        						<div class="row center">
+        							<a class="waves-effect waves-light btn-floating btn-large" href="https://www.cmuquizbowl.org/"><i class="material-icons">open_in_browser</i></a>
+        						</div>
         					</div>
         				</li>
         				<li>
-        					<div class="collapsible-header blue-grey darken-1"><h6>Brain-Computer-Interfaces, Capital Area Science and Engineering Fair</h6></div>
+        					<div class="collapsible-header blue-grey darken-1 grey-text text-lighten-4"><h6><i class="material-icons amber-text">memory</i>Brain-Computer-Interfaces, Capital Area Science and Engineering Fair</h6></div>
         					<div class="collapsible-body blue-grey darken-2">
 								<blockquote class="grey-text text-lighten-4">
-    								During my senior year of high school, I engaged in a massive foray into Machine Learning and Digital Signal Processing for the Capital Area Science and Engineering Fair in Harrisburg, PA, where I finished 2nd in my category. My goal was to determine what a human subject was doing using their electroencephalogram (EEG) signals out of 4 classes. I built my own EEG headset using mostly common hardware and a 3D printer. From there, I gleaned features out of the EEG signals throguh Signal Processing and feature analysis. I also implemented several Bayesian Machine Learning algorithms to do the actual classification.
+    								During my senior year of high school, I engaged in a massive foray into Machine Learning and Digital Signal Processing for the Capital Area Science and Engineering Fair in Harrisburg, PA, where I finished 2nd in my category. My goal was to determine what a human subject was doing using their electroencephalogram (EEG) signals out of 4 classes. I built my own EEG headset using mostly common hardware and a 3D printer. From there, I gleaned features out of the EEG signals throguh Signal Processing and feature analysis. I also implemented several Bayesian Machine Learning algorithms to do the actual classification. Here's my abstract: <br><br>
+								</blockquote>
+								<blockquote>
+									<q>
+										<em class="blue-grey-text text-lighten-4">
+											A Brain Computer Interface (BCI) using electroencephalography (EEG) shows promise as a user interface for computers. One of the main areas of this research focuses on associating EEG data with certain mental processes such as reﬂective listening, relaxation, and problem solving. This project’s research seeks to collect EEG data from human participants while they are performing three diﬀerent tasks for the testing and training of two Bayesian classiﬁcation algorithms whose purpose is to recognize the distinction in EEG data among the three processes. The research hypothesis is that the Bayesian Network approach with structure learning will be more accurate with a small data set than the standard Naive Bayes. An eﬀective BCI could have widespread medical implications. One such example is allowing for those with High Functioning Autism Spectrum disorders to monitor their own biofeedback, thereby detecting trigger behaviors before they occur by analyzing speciﬁc biofeedback markers provided by real time EEG data.
+										</em>
+									</q>
 								</blockquote>
 								<blockquote class="grey-text text-lighten-4">
-									For more details about the the projects, what I learned from it, and the paper, click the button below!
+									For more details about the the project, what I learned from it, and the paper, click the buttons below!
 								</blockquote>
+								<div class="row center">
+									<a class="waves-effect waves-light btn-floating btn-large"><i class="material-icons">more_horiz</i></a>
+								</div>
         					</div>
         				</li>
         				<li>
-        					<div class="collapsible-header blue-grey darken-1"><h6>PaupackWaves Lemelson-MIT InvenTeam</h6></div>
+        					<div class="collapsible-header blue-grey darken-1 grey-text text-lighten-4"><h6><i class="material-icons amber-text">waves</i>PaupackWaves Lemelson-MIT InvenTeam</h6></div>
         					<div class="collapsible-body blue-grey darken-2">
         						<blockquote class="grey-text text-lighten-4">
         							In 9th grade, I was a member of a team at my High School that recieved a $10,000 grant from the Lemelson-MIT foundation to build an invention. It was an electric generator that drew enough power from the small, choppy waves of Lake Wallenpaupack to light the docks at night. I designed and built most of the electronic systems, designing the PCB and programming the PIC microcontroller present on the board.
         						</blockquote>
         						<blockquote class="grey-text text-lighten-4">
-        							After presenting at MIT, our project was fortunate enough to be represented at the 2016 White House Science Fair! Click the button below with my monogram for more inforation, and any of the others for additional media!
+        							After presenting at MIT, our project was fortunate enough to be represented at the 2016 White House Science Fair! Click any of the buttons below for additional content and media!
         						</blockquote>
         						<div class="row center">
-        							<a class="waves-effect waves-light btn-floating" href="https://wnep.com/2015/03/26/students-shine-at-white-house-science-fair/"><i class="material-icons">open_in_browser</i></a>
-        							<a class="waves-effect waves-light btn-floating" href="https://youtu.be/OvPEhk5v7nc"><i class="bd-youtube"></i></a>
+        							<a class="waves-effect waves-light btn-floating btn-large" href="https://wnep.com/2015/03/26/students-shine-at-white-house-science-fair/"><i class="material-icons">open_in_browser</i></a>
+        							<a class="waves-effect waves-light btn-floating btn-large" href="https://youtu.be/OvPEhk5v7nc"><i class="bd-youtube"></i></a>
         						</div>
         						
         					</div>
         				</li>
         				<li>
-        					<div class="collapsible-header blue-grey darken-1"><h6>Geo Beats Audio-Visualization Game</h6></div>
+        					<div class="collapsible-header blue-grey darken-1 grey-text text-lighten-4"><h6><i class="material-icons amber-text">music_note</i>Geo Beats Audio-Visualization Game</h6></div>
         					<div class="collapsible-body blue-grey darken-2">
         						<blockquote class="grey-text text-lighten-4">
-        							For my term project in 15-112, an introductory Computer Science class at Carnegie Mellon University, I used Python to create a Music Visualization game in the guise of a "bullet-hell", Galaga-style srolling shooter. It analyzes the audio signal real-time, completing Fourier Transforms, spectral analysis, and signal power calculations to generate enemies, change their firing patterns, and provide the player with an experience reflecting the song they pick.
+        							For my term project in 15-112, an introductory Computer Science class at Carnegie Mellon University, I used Python to create a Music Visualization game in the guise of a "bullet-hell", Galaga-style srolling shooter. It analyzes the audio signal real-time, completing Fourier Transforms, spectral analysis, and signal power calculations during every frame to generate enemies, change their firing patterns, and provide the player with an experience reflecting the song they pick.
         						</blockquote>
         					</div>
         				</li>
