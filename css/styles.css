@@ -1,11 +1,7 @@
-.path{
+path {
 	stroke-dashoffset: 100000;
   	stroke-dasharray:  100000;
-  	animation: dash 1s linear forwards;
-}
-
-.path.d-svg {
-	animation: dash 1s linear forwards;
+  	animation: dash 1.2s linear forwards;
 }
 
 .circle-monogram {
