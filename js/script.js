@@ -17,12 +17,6 @@
     });
   });
 
-  $('svg').bind('beforeunload',function(){
-    let el = this;
-    let newone = elm.cloneNode(true);
-    el.parentNode.replaceChild(newone, el);
-  });
-
   function copyPhone() {
     const el = document.createElement('textarea');
     el.value = '5704706239';
