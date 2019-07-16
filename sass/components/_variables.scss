@@ -118,8 +118,8 @@ $carousel-item-width: $carousel-item-height !default;
 
 $collapsible-height: 3rem !default;
 $collapsible-line-height: $collapsible-height !default;
-$collapsible-header-color: $secondary-color !default;
-$collapsible-border-color: darken($secondary-color, 10%)  !default;
+$collapsible-header-color: #fff !default;
+$collapsible-border-color: #455a64 !default;
 
 
 // 7. Chips
@@ -303,7 +303,7 @@ $toast-action-color: #eeff41;
 // 20. Typography
 // ==========================================================================
 
-$font-stack: Oxygen-Sans, -apple-system, BlinkMacSystemFont, "Sergio UI", Roboto, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !default;
+$font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !default;
 $off-black: rgba(0, 0, 0, 0.87) !default;
 // Header Styles
 $h1-fontsize: 4.2rem !default;
